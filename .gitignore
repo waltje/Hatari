@@ -1,52 +1,46 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
+*.1.gz
 *.a
-*.la
-*.lo
+*.o
+*.pyc
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+config.h
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+CMakeFiles
+install_manifest.txt
+Makefile
+Testing
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+src/hatari
+src/tos.img
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+src/cpu/build68k
+src/cpu/cpudefs.c
+src/cpu/cpuemu_*.c
+src/cpu/cpustbl.c
+src/cpu/cputbl.h
+src/cpu/gencpu
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+tests/debugger/test-breakcond
+tests/debugger/test-evaluate
+tests/debugger/test-symbols
+tests/unit/test-file
+
+tools/hmsa/hmsa
+tools/debugger/gst2ascii
+
+python-ui/conftypes.py
+
+doc/doxygen/html
+
+# These are for XCode on Mac OS X:
+build/*
+Hatari.build/*
+Release/*
+Debug/*
+
+# Created by the Eclipse IDE (CDT)
+.cproject
+.project
+.settings/
